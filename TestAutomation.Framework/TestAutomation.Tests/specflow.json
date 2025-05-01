@@ -1,0 +1,12 @@
+{
+  "language": {
+    "feature": "en"
+  },
+  "bindingCulture": {
+    "language": "en-us"
+  },
+  "generator": {
+    "allowDebugGeneratedFiles": true,
+    "path": "Features"
+  }
+}
