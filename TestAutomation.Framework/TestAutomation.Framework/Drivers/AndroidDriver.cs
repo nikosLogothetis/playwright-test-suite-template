@@ -9,9 +9,9 @@ namespace TestAutomation.Framework.Drivers
 {
     public class AndroidDriver : IDriver
     {
-        public IBrowser Browser { get; private set; }
-        public IBrowserContext Context { get; private set; }
-        public IPage Page { get; private set; }
+        public IBrowser? Browser { get; private set; }
+        public IBrowserContext? Context { get; private set; }
+        public IPage? Page { get; private set; }
 
         public async Task InitializeAsync(ViewportSize? viewport = null)
         {
@@ -38,5 +38,4 @@ namespace TestAutomation.Framework.Drivers
             await Browser?.CloseAsync();
         }
     }
-}
 }
