@@ -3,3 +3,10 @@
 *.suo
 *.vsp
 *.vspscc
+
+# Build output
+bin/
+obj/
+
+# Playwright browser cache (optional, can be ignored)
+playwright/.cache/
